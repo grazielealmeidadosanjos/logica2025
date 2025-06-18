@@ -1,0 +1,12 @@
+#include <stdio.h>
+ 
+int main() {
+ float A, B, C, MEDIA;
+ scanf("%f", &A);
+scanf("%f", &B); 
+scanf("%f", &C);
+ MEDIA = (2*A + 3*B + C*5)/10;
+ printf("MEDIA = %.1f\n", MEDIA);
+
+    return 0;
+}
