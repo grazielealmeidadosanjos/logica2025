@@ -19,8 +19,8 @@ int main() {
         }
     }
 
-    printf("Menor valor: %d\n", menor);
-    printf("Posicao: %d\n", pos);
+     printf("Menor valor: %d\n", menor);
+     printf("Posicao: %d\n", pos);
 
-    return 0;
+     return 0;
 }
