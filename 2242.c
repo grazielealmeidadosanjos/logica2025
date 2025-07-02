@@ -5,7 +5,6 @@
 int main() {
     char risada[51], vogais[51];
     int i, j = 0, tamanho;
-
     scanf("%s", risada);
     tamanho= strlen(risada)-1;
 
@@ -15,15 +14,7 @@ int main() {
             j++;
         }
     }
-
-
-
     printf("%s", vogais);
-    
-    
-    
-    
-    
     int inicio = 0;
     int fim = j - 1;
     int engracada = 1;
