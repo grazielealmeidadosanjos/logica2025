@@ -20,8 +20,8 @@ int main()
              for(b=2;b <=N; b++){
              Fib[b]= Fib[b-1]+Fib[b-2];
              }
-     printf("Fib(%llu) = %llu\n",N, Fib[N]);
+      printf("Fib(%llu) = %llu\n",N, Fib[N]);
          }
      }
-     return 0;
+      return 0;
      }
