@@ -8,5 +8,5 @@ int main() {
  PROD = A*B;
  printf("PROD = %d\n", PROD);
  
-return 0;
+ return 0;
 }
