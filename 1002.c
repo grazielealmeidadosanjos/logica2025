@@ -7,5 +7,5 @@ int main() {
     area = pi * (raio * raio) ; 
     printf("A=%.4lf\n", area);
     
-return 0;
+    return 0;
 }
