@@ -8,5 +8,5 @@ int main() {
  MEDIA = (2*A + 3*B + C*5)/10;
  printf("MEDIA = %.1f\n", MEDIA);
 
-return 0;
+ return 0;
 }
