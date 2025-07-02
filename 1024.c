@@ -30,19 +30,14 @@ int main()
                     aux2[c]=aux1[b];
                     b--;
                 }
-            
-            
-            
+    
             d=(tamanho+1)/2;
             strcpy(final,aux2);
             for(e=d;e<=tamanho;e++)
                 {
                     final[e]=aux2[e]-1;
                 }
-            
-            
-            
-            
+      
             printf("%s\n", aux1);
             printf("%s\n", aux2);
             printf("%s\n", final);
