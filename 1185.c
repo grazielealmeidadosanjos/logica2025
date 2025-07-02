@@ -4,7 +4,6 @@ int main() {
     char op;
     int i, j, contador = 0;
 
-    // Leitura do operador ('S' para soma, 'M' para média)
     scanf(" %c", &op);  // Espaço antes de %c para evitar erro de leitura
 
     // Leitura da matriz 12x12
@@ -14,7 +13,6 @@ int main() {
         }
     }
 
-    // Cálculo da soma acima da diagonal principal
     for (i = 0; i < 12; i++) {
         for (j = 0; j < 12; j++) {
             if (i + j < 11){
@@ -24,7 +22,6 @@ int main() {
         }
     }
 
-    // Impressão do resultado
     if (op == 'S') {
         printf("%.1lf\n", soma);
     } else if (op == 'M') {
