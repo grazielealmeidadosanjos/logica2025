@@ -15,6 +15,6 @@ int main(){
         girassois= circulo-triangulo;
         printf("%.4f %.4f %.4f\n", girassois, violetas, rosas);
     }
-    return 0;
+  return 0;
 }
 
