@@ -9,6 +9,6 @@ int main() {
     fatorial = fatorial * n;
 }
 
-printf("%d\n", fatorial);
+    printf("%d\n", fatorial);
     return 0;
 }
