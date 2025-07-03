@@ -32,7 +32,8 @@ int main() {
     } else {
         printf("0 nota(s) de R$ 10,00\n");
     }
-     if (N >= 5) {
+
+    if (N >= 5) {
         printf("%d nota(s) de R$ 5,00\n", N / 5);
         N = N % 5;
     } else {
@@ -50,3 +51,4 @@ int main() {
 
     return 0;
 }
+
