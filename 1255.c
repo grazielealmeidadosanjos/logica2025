@@ -3,21 +3,20 @@
 #include <ctype.h>
 
 int main() {
-    int N,a;
+    int N, a;
     scanf("%d", &N);
-
 
     for (int a = 0; a < N; a++) {
         char linha[1001];
         fflush(stdin);
-        scanf(" %[^\n]",linha);
+        scanf(" %[^\n]", linha);
 
         int freq[26] = {0};
         int max = 0;
-        
-        int tamanho=strlen(linha)-1;
 
-        for (int i = 0; i<=tamanho; i++) {
+        int tamanho = strlen(linha) - 1;
+
+        for (int i = 0; i <= tamanho; i++) {
             if (isalpha(linha[i])) {
                 char c = tolower(linha[i]);
                 freq[c - 'a']++;
@@ -27,7 +26,6 @@ int main() {
             }
         }
 
-    
         for (int i = 0; i < 26; i++) {
             if (freq[i] == max) {
                 printf("%c", i + 'a');
