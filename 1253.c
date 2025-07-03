@@ -8,10 +8,9 @@ int main() {
     scanf("%d", &N);
     for (i = 0; i < N; i++) {
         scanf("%s", palavra);
-        scanf("%d", &cesar);  
+        scanf("%d", &cesar);
 
         for (j = 0; j < strlen(palavra); j++) {
-            
             palavra[j] = ((palavra[j] - 'A' - cesar + 26) % 26) + 'A';
         }
 
